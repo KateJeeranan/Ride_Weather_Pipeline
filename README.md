@@ -4,6 +4,7 @@ This project is an ETL (Extract, Transform, Load) pipeline designed to fetch, me
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Data Pipeline Overview](#data_pipeline_overview)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [Setup and Installation](#setup-and-installation)
