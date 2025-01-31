@@ -1,4 +1,4 @@
-# Ride_Weather_Pipeline
+# Ride Weather Pipeline
 
 This project is an ETL (Extract, Transform, Load) pipeline designed to fetch, merge, and process bike trip data from a MySQL database and weather data from the Visual Crossing API. The processed data is then loaded into Google BigQuery for further analysis and visualization.
 
