@@ -17,6 +17,11 @@ This project is an ETL (Extract, Transform, Load) pipeline designed to fetch, me
 ## Project Overview
 The goal of this project is to automate the process of extracting bike trip data from a MySQL database, fetching weather data from an external API, merging the two datasets, and loading the final dataset into Google BigQuery. The pipeline is orchestrated using Apache Airflow, and the data is stored in Google Cloud Storage (GCS) before being loaded into BigQuery.
 
+## Data Pipeline Overview
+This diagram illustrates the data processing flow:
+
+![ETL Pipeline Architecture](assets/your-image.png)
+
 ## Technologies Used
 - **Apache Airflow**: For orchestrating the ETL pipeline.
 - **Python**: For data processing and scripting.
