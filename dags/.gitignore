@@ -1,0 +1,55 @@
+# Ignore Airflow logs and cache
+logs/               # Airflow logs directory
+*.log               # Log files
+*.pid               # Process ID files
+airflow.cfg         # Airflow configuration file (if you want to ignore it)
+airflow.db          # SQLite database used by Airflow (if applicable)
+
+# Ignore Python virtual environment
+venv/               # Python virtual environment directory
+.env                # Environment variables file
+.env.local          # Local environment variables file
+
+# Ignore IDE-specific files
+.idea/              # JetBrains IDE (e.g., PyCharm) configuration
+.vscode/            # Visual Studio Code configuration
+*.swp               # Vim swap files
+*.swo               # Vim swap files
+
+# Ignore compiled Python files
+__pycache__/        # Python cache files
+*.pyc               # Compiled Python files
+*.pyo               # Optimized Python files
+*.pyd               # Python dynamic modules
+
+# Ignore data files and directories (specific to your code)
+/home/airflow/gcs/data/  # Directory containing data files (e.g., Parquet, CSV)
+*.parquet           # Parquet files
+*.csv               # CSV files
+*.json              # JSON files
+
+# Ignore Airflow plugins (if not needed)
+plugins/            # Airflow plugins directory
+
+# Ignore Docker-related files (if applicable)
+docker-compose.yml  # Docker Compose file
+Dockerfile          # Dockerfile
+.dockerignore       # Docker ignore file
+
+# Ignore temporary files
+tmp/                # Temporary files directory
+temp/               # Temporary files directory
+
+# Ignore macOS-specific files
+.DS_Store           # macOS Finder settings file
+
+# Ignore Windows-specific files
+Thumbs.db           # Windows thumbnail cache
+Desktop.ini         # Windows folder customization file
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/ # Jupyter Notebook checkpoints
+
+# Ignore test-related files
+tests/              # Test directory
+test_output/        # Test output directory
