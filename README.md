@@ -20,7 +20,7 @@ The goal of this project is to automate the process of extracting bike trip data
 ## Data Pipeline Overview
 This diagram illustrates the data processing flow:
 
-![ETL Pipeline Architecture](assets/your-image.png)
+![ETL Pipeline Architecture](assets/pipeline.png)
 
 ## Technologies Used
 - **Apache Airflow**: For orchestrating the ETL pipeline.
